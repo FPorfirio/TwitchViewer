@@ -1,0 +1,267 @@
+
+
+html, body {
+  max-height: 100%;
+  margin: 0;
+  padding: 0;  
+  background:#26004d
+}
+
+* { 
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 50px;
+  position: relative;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  background: #cccccc;
+  border: 1px solid black;
+  text-align: center;
+}
+
+header h1 {
+  padding: 0px;
+  margin: 0 0 -2px;
+  color: #26004d 
+    
+}
+
+footer {
+  margin: 0px;
+  position: relative;
+  bottom: 0px; 
+  height: 40px;
+}
+
+footer h3 {
+  position: absolute;
+  padding: 0px;
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 0 -75.5px;
+  color: white;
+  font-family: 'Questrial', serif;
+  
+}
+
+main {
+  margin: 0 auto;
+  position: relative;
+}
+
+main #form {
+  text-align: center;
+  margin-top: 15px;
+}
+
+main #form input[type="search"] {
+  padding: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+  height: 30px;
+  width: 40%;
+  outline: none;
+  font-size: 24px;
+}
+
+ main #form input[type="search"]:active {
+   border: 3px double #666;
+   
+}
+
+.box-style {
+  border: 3px double white;
+  background: black;
+  font-size: 30px;
+  color: white;
+
+}
+
+main #form button {
+  font-family: "Dhurjati", serif;
+  padding: 10px 2px 13px;
+  line-height: 10px; 
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 9px #cccccc;
+  font-family: "Dhurjati", serif;
+}
+
+ #form button:active {
+   border: 3px double #666;
+  transform: translateY(4px);
+}
+
+main #results {
+  position: relative;
+  margin: 20px auto;
+  font-family: "Dhurjati", serif;
+  font-size: 20px;
+  width: 500px;
+  background: #cccccc;
+  line-height: 50px;
+}
+
+main #results a:nth-child(1) {
+  position: absolute;
+  width: 50%;
+  left: 40px;
+}
+
+main #results span:nth-child(2) {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  right: 0px;
+}
+
+main h2 {
+  text-align: center;
+  font-family: 'Questrial', serif;
+  font-size: 30px;
+  background: none;
+  margin-top: 40px;
+  margin-bottom: 14px;
+  color: white;
+  text-decoration: overline;
+}
+
+main #menu {
+  width: 35%;
+  height: 40px;
+  position: relative;
+  line-height: 40px;
+  color: white;
+  font-family: "Dhurjati", serif;
+  font-size: 30px;
+  left: 50%;
+  margin-left: -17.5%;
+}
+
+main #menu span:nth-child(1) {
+  position: absolute;
+  width: 50%;
+  text-align: center
+}
+
+main #menu span:nth-child(2) {
+  position: absolute;
+  right: 0px;
+  width: 50%; 
+  text-align: center;
+}
+
+main #streamBox {
+  background: -webkit-linear-gradient(-45deg, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);  
+  width: 35%;
+  height: 300px;
+  position: relative;
+  left: 50%;
+  margin-left: -17.5%;
+  font-family: "Dhurjati", serif;
+  font-size: 20px;
+  border: 2px outset black;
+  border-top: none;
+  overflow: hidden;
+}
+
+.height {
+  height: 600px;
+}
+
+main ul {
+  margin: 0;
+  padding: 0
+}
+
+main #btnWrapper {
+  position: relative;
+}
+
+main #btnWrapper button {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  margin-left: -25px;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 100%
+}
+
+main div ul li {
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  height: 60px;
+  position: relative;
+  line-height: 60px; 
+  overflow: hidden
+}
+main ul li img { 
+  height: 50px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+li a:nth-child(2) {
+  position: absolute;
+  left: 80px;
+  text-decoration: none;
+}
+
+li span:nth-child(3) {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1228px ) {
+  main #streamBox {
+    width: 60%;
+    margin-left: -30%;
+  }
+  main #menu {
+    width: 60%;
+    margin-left: -30%;
+  }
+}
+
+
+@media screen and (max-width: 840px ) {
+  main #streamBox {
+    width: 90%;
+    margin-left: -45%;
+  }
+  main #menu {
+    width: 90%;
+    margin-left: -45%;
+  }
+  header h1 {
+   
+  }
+}
+
+@media screen and (max-width: 450px ) {
+  
+  ul li a:nth-child(2) {
+  position: initial;
+  display: block;
+  width: 100%;
+  left: 80px;
+  text-decoration: none;
+}
+
+ul li span:nth-child(3) {
+  position: initial;
+  display: block;
+  width: 100%;
+  right: 0;
+  width: 50%;
+  text-align: center;
+}
+}
