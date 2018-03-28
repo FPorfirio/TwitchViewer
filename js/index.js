@@ -40,15 +40,6 @@ $(document).ready(function(){
         
       })
   })
-
-  btn.addEventListener("click", function(e){
-    console.log("shit");
-    if (streamContainer.classList.contains("height")) {
-      streamContainer.classList.remove("height");
-    } else {
-      streamContainer.classList.add("height");
-    }
-  })
   
   function get_api() { 
     streams.forEach(function(stream) {        

@@ -156,7 +156,6 @@ main #menu span:nth-child(2) {
 main #streamBox {
   background: -webkit-linear-gradient(-45deg, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);  
   width: 35%;
-  height: 300px;
   position: relative;
   left: 50%;
   margin-left: -17.5%;
